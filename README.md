@@ -1,4 +1,4 @@
-## Table of contents
+## Table of contents C++
 * [string](#string)
 * [queue](#queue)
 * [dequeue](#dequeue)
