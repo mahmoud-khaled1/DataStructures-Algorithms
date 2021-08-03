@@ -13,8 +13,7 @@ Note: You may not engage in multiple transactions simultaneously (i.e., you must
 **********************************************************************************/
 public class Solution {
     public int MaxProfit(int[] prices) {
-        int max_profile=0;
-        int min_price=999999;
+       
         int sum=0;
         for(int i=0;i<prices.Length-1;i++)
         {
