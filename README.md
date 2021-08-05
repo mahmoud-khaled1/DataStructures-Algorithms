@@ -4,8 +4,7 @@
 * [dequeue](#dequeue)
 * ## Algorithms 
 * [Prefix Sum](#prefixsum)
-* [queue](#queue)
-* [dequeue](#dequeue)
+
 
 
 
