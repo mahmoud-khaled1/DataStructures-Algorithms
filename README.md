@@ -2,6 +2,11 @@
 * [string](#string)
 * [queue](#queue)
 * [dequeue](#dequeue)
+* ## Algorithms 
+* [Prefix Sum](#prefixsum)
+* [queue](#queue)
+* [dequeue](#dequeue)
+
 
 
 
@@ -35,4 +40,5 @@ some important function in Queue STL
 ## dequeue
 some important function in dequeue STL  
 
+## prefixsum
 
