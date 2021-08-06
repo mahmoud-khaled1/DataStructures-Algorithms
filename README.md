@@ -8,7 +8,7 @@
 * [Insertion Sort Algorithm ](#insertionsort)
 * [Bubble Sort Algorithm ](#bubblesort)
 * [Binary Search](#binarysearch)
-
+* [Selection Sort](#selectionsort)
 
 
 
@@ -249,7 +249,51 @@ Binary Search: Search a sorted array by repeatedly dividing the search interval 
 Time Complexity: O(log n) <br/>	
 
 	
+## selectionsort
+
+The selection sort algorithm sorts an array by repeatedly finding the minimum element (considering ascending order) from unsorted part and putting it at the beginning. The algorithm maintains two subarrays in a given array.<br/>
 	
+Following example explains the above steps: <br/>
+
+arr[] = 64 25 12 22 11<br/>
+
+// Find the minimum element in arr[0...4]<br/>
+// and place it at beginning<br/>
+11 25 12 22 64<br/>
+
+// Find the minimum element in arr[1...4]<br/>
+// and place it at beginning of arr[1...4]<br/>
+11 12 25 22 64<br/>
+
+// Find the minimum element in arr[2...4]<br/>
+// and place it at beginning of arr[2...4]<br/>
+11 12 22 25 64<br/>
+
+// Find the minimum element in arr[3...4]<br/>
+// and place it at beginning of arr[3...4]<br/>
+11 12 22 25 64 <br/>
+	
+    static void sort(int []arr)
+    {
+        int n = arr.Length;
+ 
+        // One by one move boundary of unsorted subarray
+        for (int i = 0; i < n - 1; i++)
+        {
+            // Find the minimum element in unsorted array
+            int min_idx = i;
+            for (int j = i + 1; j < n; j++)
+                if (arr[j] < arr[min_idx])
+                    min_idx = j;
+ 
+            // Swap the found minimum element with the first
+            // element
+            int temp = arr[min_idx];
+            arr[min_idx] = arr[i];
+            arr[i] = temp;
+        }
+    }
+ Time Complexity: O(n^2)
 	
 	
 	
