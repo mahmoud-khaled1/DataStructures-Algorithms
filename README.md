@@ -3,6 +3,7 @@
 * [queue](#queue)
 * [dequeue](#dequeue)
 * ## Algorithms 
+* [Big O Notation](#bigo)
 * [Prefix Sum](#prefixsum)
 * [Frequency array](#frequencyy)
 * [Insertion Sort Algorithm ](#insertionsort)
@@ -42,6 +43,14 @@ some important function in Queue STL
 ## dequeue
 some important function in dequeue STL  
 
+## bigo
+Hi there!  This covers the space and time Big-O complexities of common algorithms used in Computer Science. <br/>
+![1](https://user-images.githubusercontent.com/43557035/128607264-121d9663-014d-48e6-b49f-fd61154b6e74.PNG)
+![2](https://user-images.githubusercontent.com/43557035/128607391-ca4ef377-c561-43a3-8810-9dc88ef2ffe4.PNG)
+![3](https://user-images.githubusercontent.com/43557035/128607394-6e54f4cc-34ba-432a-8ba4-9cecfa0e416a.PNG)
+
+	
+	
 ## prefixsum
 Given an array arr[] of size n, its prefix sum array is another array prefixSum[] of the same size, such that the value of prefixSum[i] is arr[0] + arr[1] + arr[2] … arr[i].<br/>	
 
