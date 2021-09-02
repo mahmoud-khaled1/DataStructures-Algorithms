@@ -10,6 +10,7 @@
 * [Bubble Sort Algorithm ](#bubblesort)
 * [Binary Search](#binarysearch)
 * [Selection Sort](#selectionsort)
+* [dynamic Programming](#dp)
 
 
 
@@ -304,5 +305,5 @@ arr[] = 64 25 12 22 11<br/>
     }
  Time Complexity: O(n^2)
 	
-	
+## dp	
 	
