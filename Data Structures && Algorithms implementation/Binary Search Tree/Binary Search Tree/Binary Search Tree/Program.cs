@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Binary_Search_Tree
 {
@@ -102,6 +103,22 @@ namespace Binary_Search_Tree
                 return 0;
             return GetHeightOfTreeHelper(root);
         }
+        public void Display_LevelOrder()
+        {
+            if (root == null)
+                return;
+            Queue<Node> queue = new Queue<Node>();
+            queue.Enqueue(root);
+            while(queue.Count>0)
+            {
+                Node Current = queue.Dequeue();
+                Console.Write(Current.data+" ");
+                if (Current.left != null)
+                    queue.Enqueue(Current.left);
+                if (Current.right != null)
+                    queue.Enqueue(Current.right);
+            }
+        }
 
         #endregion
 
@@ -177,6 +194,7 @@ namespace Binary_Search_Tree
             // Console.WriteLine(bst.GetMin_Iteration());
             //Console.WriteLine(bst.GetMax_Recursion());
             //Console.WriteLine(bst.GetHeightOfTree());
+            //bst.Display_LevelOrder();
         }
     }
 
