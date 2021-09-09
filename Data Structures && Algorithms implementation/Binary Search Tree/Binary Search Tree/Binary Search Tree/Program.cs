@@ -96,6 +96,13 @@ namespace Binary_Search_Tree
                 return -1;
             return GetMAxHelper(root);
         }
+        public int GetHeightOfTree()
+        {
+            if (root == null)
+                return 0;
+            return GetHeightOfTreeHelper(root);
+        }
+
         #endregion
 
         #region Helper Functions
@@ -144,6 +151,14 @@ namespace Binary_Search_Tree
                 return temp.data;
             }
         }
+        private int GetHeightOfTreeHelper(Node temp)
+        {
+            if (temp == null)
+                return -1;
+            int left_subtree = GetHeightOfTreeHelper(temp.left);
+            int right_subtree = GetHeightOfTreeHelper(temp.right);
+            return 1 + Math.Max(left_subtree, right_subtree);
+        }
         #endregion
     }
     class Program
@@ -161,6 +176,7 @@ namespace Binary_Search_Tree
             //Console.WriteLine(bst.GetMax_Iteration());
             // Console.WriteLine(bst.GetMin_Iteration());
             //Console.WriteLine(bst.GetMax_Recursion());
+            //Console.WriteLine(bst.GetHeightOfTree());
         }
     }
 
