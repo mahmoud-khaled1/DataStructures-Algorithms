@@ -2,7 +2,7 @@
 * [string](#string)
 * [queue](#queue)
 * [dequeue](#dequeue)
-* ## Algorithms 
+* ## Data Structures && Algorithms 
 * [Big O Notation](#bigo)
 * [Prefix Sum](#prefixsum)
 * [Frequency array](#frequencyy)
@@ -11,6 +11,7 @@
 * [Binary Search](#binarysearch)
 * [Selection Sort](#selectionsort)
 * [dynamic Programming](#dp)
+* [Binary Search Tree](#bst)
 
 
 
@@ -306,4 +307,23 @@ arr[] = 64 25 12 22 11<br/>
  Time Complexity: O(n^2)
 	
 ## dp	
+					  
+					  
+## bst
+![YDJt2](https://user-images.githubusercontent.com/43557035/132732430-52cd401e-0b59-4a78-b14a-fa0f77ab4aaa.png)					  
+![binary-search-tree-time-complexity](https://user-images.githubusercontent.com/43557035/132732379-31e0315a-0477-4995-952d-f96a0731a868.png)
+					  
+# Binary Search Tree is a node-based binary tree data structure which has the following properties:<br/>
+<br/>
+The left subtree of a node contains only nodes with keys lesser than the node’s key.<br/>
+The right subtree of a node contains only nodes with keys greater than the node’s key.<br/>
+The left and right subtree each must also be a binary search tree.<br/
+ <br/>								     
+# Advantages of using binary search tree <br/>
 	
+1-Searching become very efficient in a binary search tree since, we get a hint at each step, about which sub-tree contains the desired element. <br/>
+2-The binary search tree is considered as efficient data structure in compare to arrays and linked lists. In searching process, <br/> it removes half sub-tree at every step. Searching for an element in a binary search tree takes o(log2n) time. In worst case, the time it takes to search an element is 0(n). <br/>
+3-It also speed up the insertion and deletion operations as compare to that in array and linked list. <br/>
+	
+Here Link of Implementation of Binary Search Tree :					  
+					  
