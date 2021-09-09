@@ -10,6 +10,10 @@ namespace Binary_Search_Tree
             public Node left;
             public Node right;
 
+            public Node()
+            {
+
+            }
             public Node(int value)
             {
                 data = value;
@@ -22,10 +26,7 @@ namespace Binary_Search_Tree
         #region Main Function
         public void Add_iterative(int value)
         {
-            Node newNode = new Node();
-            newNode.data = value;
-            newNode.left = null;
-            newNode.right = null;
+            Node newNode = new Node(value);
             if (root == null)
                 root = newNode;
             else
@@ -47,8 +48,6 @@ namespace Binary_Search_Tree
                 else
                     Prev.left = newNode;
             }
-
-
         }
         public void Add_Recursion(int value)
         {
@@ -61,7 +60,42 @@ namespace Binary_Search_Tree
                 AddHelper(value, root);
 
         }
-
+        public int GetMax_Iteration()
+        {
+            if (root == null)
+                return -1;
+            Node Temp = new Node();
+            Temp = root;
+            while (Temp.right!=null)
+            {
+                Temp = Temp.right;
+            }
+            return Temp.data;
+        }
+        public int GetMin_Iteration()
+        {
+            if (root == null)
+                return -1;
+            Node Temp = new Node();
+            Temp = root;
+            while (Temp.left != null)
+            {
+                Temp = Temp.left;
+            }
+            return Temp.data;
+        }
+        public int GetMax_Recursion()
+        {
+            if (root == null)
+                return -1;
+            return GetMAxHelper(root);
+        }
+        public int GetMin_Recursion()
+        {
+            if (root == null)
+                return -1;
+            return GetMAxHelper(root);
+        }
         #endregion
 
         #region Helper Functions
@@ -88,14 +122,45 @@ namespace Binary_Search_Tree
                     AddHelper(value, temp.right);
             }
         }
-
+        private int GetMAxHelper(Node temp)
+        {
+            if(temp.right!=null)
+            {
+                return GetMAxHelper(temp.right);     
+            }
+            else
+            {
+                return temp.data;
+            }
+        }
+        private int GetMinHelper(Node temp)
+        {
+            if (temp.left != null)
+            {
+                return GetMAxHelper(temp.left);
+            }
+            else
+            {
+                return temp.data;
+            }
+        }
         #endregion
     }
     class Program
     {
         static void Main(string[] args)
         {
+            BST bst = new BST();
+            bst.Add_iterative(50);
+            bst.Add_iterative(60);
+            bst.Add_iterative(70);
+            bst.Add_iterative(40);
+            bst.Add_iterative(30);
+            bst.Add_iterative(44);
 
+            //Console.WriteLine(bst.GetMax_Iteration());
+            // Console.WriteLine(bst.GetMin_Iteration());
+            //Console.WriteLine(bst.GetMax_Recursion());
         }
     }
 
