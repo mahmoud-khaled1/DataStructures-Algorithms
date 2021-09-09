@@ -318,9 +318,10 @@ arr[] = 64 25 12 22 11<br/>
 The left subtree of a node contains only nodes with keys lesser than the node’s key.<br/>
 The right subtree of a node contains only nodes with keys greater than the node’s key.<br/>
 The left and right subtree each must also be a binary search tree.<br/
- <br/>								     
-# Advantages of using binary search tree <br/>
+ <br/>	
 	
+# Advantages of using binary search tree <br/>
+<br/>	
 1-Searching become very efficient in a binary search tree since, we get a hint at each step, about which sub-tree contains the desired element. <br/>
 2-The binary search tree is considered as efficient data structure in compare to arrays and linked lists. In searching process, <br/> it removes half sub-tree at every step. Searching for an element in a binary search tree takes o(log2n) time. In worst case, the time it takes to search an element is 0(n). <br/>
 3-It also speed up the insertion and deletion operations as compare to that in array and linked list. <br/>
