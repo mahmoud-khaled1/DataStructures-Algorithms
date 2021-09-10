@@ -89,13 +89,13 @@ namespace Binary_Search_Tree
         {
             if (root == null)
                 return -1;
-            return GetMAxHelper(root);
+            return GetMAxHelper(root).data;
         }
         public int GetMin_Recursion()
         {
             if (root == null)
                 return -1;
-            return GetMAxHelper(root);
+            return GetMinHelper(root);
         }
         public int GetHeightOfTree()
         {
@@ -138,6 +138,10 @@ namespace Binary_Search_Tree
             DisPlay_PostOrderHelper(root);
             
         }
+        public void Remove(int value)
+        {
+            root= RemoveHelper(root, value);
+        }
         #endregion
 
         #region Helper Functions
@@ -164,7 +168,7 @@ namespace Binary_Search_Tree
                     AddHelper(value, temp.right);
             }
         }
-        private int GetMAxHelper(Node temp)
+        private Node GetMAxHelper(Node temp)
         {
             if(temp.right!=null)
             {
@@ -172,14 +176,14 @@ namespace Binary_Search_Tree
             }
             else
             {
-                return temp.data;
+                return temp;
             }
         }
         private int GetMinHelper(Node temp)
         {
             if (temp.left != null)
             {
-                return GetMAxHelper(temp.left);
+                return GetMAxHelper(temp.left).data;
             }
             else
             {
@@ -218,6 +222,47 @@ namespace Binary_Search_Tree
             DisPlay_PostOrderHelper(temp.right);
             Console.Write(temp.data + " ");
         }
+        private Node RemoveHelper(Node temp,int value)
+        {
+            /* Base Case: If the tree is empty */
+            if (temp == null)
+                return temp;
+            /* Otherwise, recur down the tree */
+            if (value<temp.data)
+            {
+               temp.left= RemoveHelper(temp.left, value);
+            }
+            else if(value>temp.data)
+            {
+                temp.right = RemoveHelper(temp.right, value);
+            }
+            else // Found it
+            {
+                if(temp.left==null)
+                {
+                    Node temp2 = temp.right;
+                    temp = null;
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
+                    return temp2;
+                }
+                else if(temp.right==null)
+                {
+                    Node temp2 = temp.left;
+                    temp = null;
+                    GC.Collect();
+                    GC.WaitForPendingFinalizers();
+                    return temp2;
+                }
+                else
+                {
+                    int maxValue = this.GetMAxHelper(temp.left).data;
+                    temp.data = maxValue;
+                    temp.left = RemoveHelper(temp.left, maxValue);
+                }    
+            }
+            return temp;
+        }
         #endregion
     }
     class Program
@@ -238,6 +283,10 @@ namespace Binary_Search_Tree
             //Console.WriteLine(bst.GetHeightOfTree());
             //bst.Display_LevelOrder();
             //bst.Display_PostOrder();
+            bst.Display_InOrder();
+            Console.WriteLine();
+            bst.Remove(50);
+            bst.Display_InOrder();
         }
     }
 
