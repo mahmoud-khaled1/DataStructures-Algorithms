@@ -8,6 +8,7 @@
 * [Selection Sort](#selectionsort)
 * [dynamic Programming](#dp)
 * [Binary Search Tree](#bst)
+* [Heap Data Structure ](#heap)
 
 
 
@@ -293,5 +294,26 @@ The left and right subtree each must also be a binary search tree.<br/
 3-It also speed up the insertion and deletion operations as compare to that in array and linked list. <br/>
 	
 Here Link of Implementation of Binary Search Tree :[Implementation](https://github.com/mahmoud-khaled1/LeetCode/tree/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Binary%20Search%20Tree/Binary%20Search%20Tree/Binary%20Search%20Tree/Program.cs)
-					  
-					  
+ <br/>						  
+## heap			
+A Heap is a special Tree-based data structure in which the tree is a complete binary tree. A complete binary tree is a binary tree in which all the levels except the last level,  leaf node should be completely filled, and all the nodes should be left-justified.<br/>	
+Generally, Heaps can be of two types: <br/>	
+
+Max-Heap: In a Max-Heap the key present at the root node must be greatest among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree. <br/>	
+Min-Heap: In a Min-Heap the key present at the root node must be minimum among the keys present at all of it’s children. The same property must be recursively true for all sub-trees in that Binary Tree. <br/>
+ <br/>
+The heap is one maximally efficient implementation of an abstract data type called a priority queue, and in fact, priority queues are often referred to as "heaps", regardless of how they may be implemented. In a heap, the highest (or lowest) priority element is always stored at the root. However, a heap is not a sorted structure; it can be regarded as being partially ordered. A heap is a useful data structure when it is necessary to repeatedly remove the object with the highest (or lowest) priority.
+ <br/>	
+ <br/>	
+ if we map the heap data structure to array such as priority queue , we can travels to the heap level by level and insert element to array ,after mapping this heap to array we can 
+ get parent and children of any element by using this equation , if we need find childrens of specific element in array we can use this equation (2i+1 , 2i+2) <br/>	
+ if we need find parent of specific element in array we can use this equation (i/2-1)
+ ![MinHeapAndMaxHeap](https://user-images.githubusercontent.com/43557035/132886887-230438fc-642a-4658-b21a-0e600d37433d.png)
+  <br/>	
+ <br/>
+ Here Some Operation in heap such as insert element and remove element 
+  <br/>	
+ <br/>
+ ![heap-ops](https://user-images.githubusercontent.com/43557035/132893274-44b1bf6c-6359-4f2f-ba4a-42fb1aefaf66.png)
+
+
