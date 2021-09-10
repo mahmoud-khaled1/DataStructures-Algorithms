@@ -119,7 +119,25 @@ namespace Binary_Search_Tree
                     queue.Enqueue(Current.right);
             }
         }
-
+        public void Display_PreOrder()
+        {
+            if (root == null)
+                return;
+            DisPlay_PreOrderHelper(root);
+        }
+        public void Display_InOrder()
+        {
+            if (root == null)
+                return;
+            DisPlay_InOrderHelper(root);
+        }
+        public void Display_PostOrder()
+        {
+            if (root == null)
+                return;
+            DisPlay_PostOrderHelper(root);
+            
+        }
         #endregion
 
         #region Helper Functions
@@ -176,6 +194,30 @@ namespace Binary_Search_Tree
             int right_subtree = GetHeightOfTreeHelper(temp.right);
             return 1 + Math.Max(left_subtree, right_subtree);
         }
+        private void DisPlay_PreOrderHelper(Node temp)
+        {
+            if (temp == null)
+                return;
+            Console.Write(temp.data+" ");
+            DisPlay_PreOrderHelper(temp.left);
+            DisPlay_PreOrderHelper(temp.right);
+        }
+        private void DisPlay_InOrderHelper(Node temp)
+        {
+            if (temp == null)
+                return;
+            DisPlay_InOrderHelper(temp.left);
+            Console.Write(temp.data + " ");
+            DisPlay_InOrderHelper(temp.right);
+        }
+        private void DisPlay_PostOrderHelper(Node temp)
+        {
+            if (temp == null)
+                return;
+            DisPlay_PostOrderHelper(temp.left);
+            DisPlay_PostOrderHelper(temp.right);
+            Console.Write(temp.data + " ");
+        }
         #endregion
     }
     class Program
@@ -195,6 +237,7 @@ namespace Binary_Search_Tree
             //Console.WriteLine(bst.GetMax_Recursion());
             //Console.WriteLine(bst.GetHeightOfTree());
             //bst.Display_LevelOrder();
+            //bst.Display_PostOrder();
         }
     }
 
