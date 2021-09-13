@@ -315,7 +315,19 @@ The heap is one maximally efficient implementation of an abstract data type call
   <br/>	
  <br/>
  ![heap-ops](https://user-images.githubusercontent.com/43557035/132893274-44b1bf6c-6359-4f2f-ba4a-42fb1aefaf66.png) <br/>
- Here Implementation of Head : [Implementation](https://github.com/mahmoud-khaled1/LeetCode/tree/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Binary%20Search%20Tree/Binary%20Search%20Tree/Binary%20Search%20Tree/Program.cs)
  <br/>						  
+A heap can be implemented in 2 ways<br/>
 
+Tree Node Implementation with pointers<br/>
+Heap as Array Implementation<br/>
+Applications –<br/>
+
+Some Applications of Heap are :<br/>
+<br/>
+Heapsort sorting algorithm<br/>
+Graph algorithms like – Prim’s minimal-spanning-tree algorithm and Dijkstra’s shortest-path algorithm.<br/>
+A priority queue can be implemented with a heap or a variety of other methods.<br/>
+Min Heap Implementation as sorting Array  –<br/>
+[Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Heap%20Sort/Heap%20Sort/Heap%20Sort/Program.cs)
+–<br/>
 
