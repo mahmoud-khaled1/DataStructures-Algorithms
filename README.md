@@ -330,4 +330,5 @@ A priority queue can be implemented with a heap or a variety of other methods.<b
 Min Heap Implementation as sorting Array  –<br/>
 [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Heap%20Sort/Heap%20Sort/Heap%20Sort/Program.cs)
 –<br/>
+Here tutorial of Heaps/Priority Queues :[tutorial](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/)
 
