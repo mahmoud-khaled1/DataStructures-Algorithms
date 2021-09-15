@@ -9,6 +9,7 @@
 * [dynamic Programming](#dp)
 * [Binary Search Tree](#bst)
 * [Heap Data Structure ](#heap)
+* [Hash Data Structure ](#hash)
 
 
 
@@ -331,3 +332,4 @@ Min Heap Implementation as sorting Array  [Implementation](https://github.com/ma
 <br/>
 Here tutorial of Heaps/Priority Queues :[tutorial](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/)
 
+## hash
