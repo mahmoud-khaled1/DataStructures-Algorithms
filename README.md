@@ -333,3 +333,44 @@ Min Heap Implementation as sorting Array  [Implementation](https://github.com/ma
 Here tutorial of Heaps/Priority Queues :[tutorial](https://www.hackerearth.com/practice/data-structures/trees/heapspriority-queues/tutorial/)
 
 ## hash
+<br/>
+
+![0](https://user-images.githubusercontent.com/43557035/133497891-277cc34b-7b4a-4c27-a7c1-b6fbaf610767.png)
+
+<br/>
+
+![1](https://user-images.githubusercontent.com/43557035/133495646-0c352e9e-f45f-4a35-bb05-4af01fbca446.PNG)
+
+<br/>
+
+![2](https://user-images.githubusercontent.com/43557035/133496560-a284842b-0f26-41cb-890d-9dfc1185e1af.PNG)
+
+<br/>
+
+![3](https://user-images.githubusercontent.com/43557035/133496754-9258bbb5-aa4f-434b-805a-cfc1bb9a29a2.PNG)
+
+<br/>
+
+![4](https://user-images.githubusercontent.com/43557035/133496843-53c27f9d-0135-435b-b97c-9b9ad29d95a7.PNG)
+
+<br/>
+
+![5](https://user-images.githubusercontent.com/43557035/133497011-99e9208b-3142-4c42-a8d2-b43284ba0655.PNG)
+
+<br/>
+
+![6](https://user-images.githubusercontent.com/43557035/133497113-d2aa4585-5244-48ad-81f7-3d7876054e02.PNG)
+
+<br/>
+
+![7](https://user-images.githubusercontent.com/43557035/133497247-0acaaab1-7c9f-4ef2-bb7a-7dbe7074bb81.PNG)
+
+
+<br/>
+
+![8](https://user-images.githubusercontent.com/43557035/133497521-adb34d3d-c151-47f0-8d42-a9bf9a052fdd.PNG)
+
+<br/>
+
+Here Implementation of Hash Table With C# : 
+
