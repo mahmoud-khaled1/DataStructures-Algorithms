@@ -9,7 +9,7 @@
 * [dynamic Programming](#dp)
 * [Binary Search Tree](#bst)
 * [Heap Data Structure ](#heap)
-* [Hash Data Structure ](#hash)
+* [Hash Table Data Structure ](#hash)
 
 
 
