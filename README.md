@@ -10,6 +10,8 @@
 * [Binary Search Tree](#bst)
 * [Heap Data Structure ](#heap)
 * [Hash Table Data Structure ](#hash)
+* [AVL Tree ](#avl)
+
 
 
 
@@ -375,4 +377,65 @@ Here tutorial of Heaps/Priority Queues :[tutorial](https://www.hackerearth.com/p
 Here Implementation of Hash Table With C# :  [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Hash%20Table%20Data%20Structure/Hash%20Table/Hash%20Table/Program.cs
 )
 
+<br/>
 
+
+## avl
+<br/>
+
+![1](https://user-images.githubusercontent.com/43557035/133940227-5f0be5b9-5001-4c7d-8253-488b80ca937e.PNG)
+
+<br/>
+
+![2](https://user-images.githubusercontent.com/43557035/133940233-0d3970f8-2b0d-41c9-abb0-3de3e50f777f.PNG)
+
+<br/>
+
+![3](https://user-images.githubusercontent.com/43557035/133940300-9391c55d-d81e-4841-a10a-6c260ff70a87.PNG)
+
+<br/>
+
+
+![4](https://user-images.githubusercontent.com/43557035/133940306-5ced1701-b57f-4e78-8aee-c9ef8241aad3.PNG)
+
+
+<br/>
+
+
+![5](https://user-images.githubusercontent.com/43557035/133940343-147423dd-596e-4a9c-9ab8-626d1c1052bd.PNG)
+
+
+<br/>
+
+![6](https://user-images.githubusercontent.com/43557035/133940347-52469028-a17e-4d94-8ade-2e7900d728f0.PNG)
+
+
+<br/>
+
+# Insertion Examples:  <br/>
+
+![AVL-Insertion-1](https://user-images.githubusercontent.com/43557035/133940356-c8297ecb-0203-4b80-98e2-aae05f507eb1.jpg)
+
+<br/>
+
+![AVL-Insertion1-1](https://user-images.githubusercontent.com/43557035/133940387-ce516d18-83e8-4748-bb8b-7c473667bf1b.jpg)
+
+<br/>
+
+![AVL_INSERTION2-1](https://user-images.githubusercontent.com/43557035/133940399-4526cb7f-cb82-45f9-a5a7-b6be837c853d.jpg)
+
+<br/>
+
+![AVL_Insertion_3-1](https://user-images.githubusercontent.com/43557035/133940413-d646925f-cb09-4158-b345-98461887d264.jpg)
+
+<br/>
+
+![7](https://user-images.githubusercontent.com/43557035/133940434-67621c59-015a-41b2-a91a-91121d1359b2.PNG)
+
+<br/>
+
+
+Here Implementation of AVL Tree With C# :  [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/AVL%20Tree/AVL%20Tree/AVL%20Tree/Program.cs
+)
+
+<br/>
