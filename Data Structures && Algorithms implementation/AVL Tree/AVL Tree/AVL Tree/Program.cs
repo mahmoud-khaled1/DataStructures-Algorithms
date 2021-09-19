@@ -140,10 +140,6 @@ namespace AVL_Tree
                 preOrder(node.right);
             }
         }
-
-
-
-
     }
     class Program
     {
