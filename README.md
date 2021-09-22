@@ -228,6 +228,11 @@ Binary Search: Search a sorted array by repeatedly dividing the search interval 
         }
 	
 Time Complexity: O(log n) <br/>	
+note : we usually used Binary Search for Optimization Problems such as find large index in array  , Minimaize max(sumblock[j]) ... etc <br/>	
+we solve it in 3 step :<br/>
+1-Define your search space (make array that contain input)<br/>
+2-Design function that check that a solution satisfies the constraint ===> Can()<br/>
+3-Binary search over search space <br/>
 
 	
 ## selectionsort
