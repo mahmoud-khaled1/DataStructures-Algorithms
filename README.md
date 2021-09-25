@@ -453,6 +453,7 @@ Here Implementation of AVL Tree With C# :  [Implementation](https://github.com/m
 
 <br/>
 
-For More Explanation and Examples Visit :  [Visit](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
+For More Explanation and Examples Visit :  [Basics of Bit Manipulation
+](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
 
 <br/>
