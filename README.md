@@ -11,6 +11,8 @@
 * [Heap Data Structure ](#heap)
 * [Hash Table Data Structure ](#hash)
 * [AVL Tree ](#avl)
+* [Bitwise operations ](#bitwise)
+
 
 
 
@@ -442,5 +444,11 @@ Here Implementation of Hash Table With C# :  [Implementation](https://github.com
 
 Here Implementation of AVL Tree With C# :  [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/AVL%20Tree/AVL%20Tree/AVL%20Tree/Program.cs
 )
+
+<br/>
+
+## bitwise
+
+![1](https://user-images.githubusercontent.com/43557035/134785482-03c3f766-24a1-454b-a26e-85edec6a17e9.PNG)
 
 <br/>
