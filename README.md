@@ -11,6 +11,8 @@
 * [Heap Data Structure ](#heap)
 * [Hash Table Data Structure ](#hash)
 * [AVL Tree ](#avl)
+* [Bitwise operations ](#bitwise)
+
 
 
 
@@ -228,6 +230,11 @@ Binary Search: Search a sorted array by repeatedly dividing the search interval 
         }
 	
 Time Complexity: O(log n) <br/>	
+note : we usually used Binary Search for Optimization Problems such as find large index in array  , Minimaize max(sumblock[j]) ... etc <br/>	
+we solve it in 3 step :<br/>
+1-Define your search space (make array that contain input)<br/>
+2-Design function that check that a solution satisfies the constraint ===> Can()<br/>
+3-Binary search over search space <br/>
 
 	
 ## selectionsort
@@ -437,5 +444,16 @@ Here Implementation of Hash Table With C# :  [Implementation](https://github.com
 
 Here Implementation of AVL Tree With C# :  [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/AVL%20Tree/AVL%20Tree/AVL%20Tree/Program.cs
 )
+
+<br/>
+
+## bitwise
+
+![1](https://user-images.githubusercontent.com/43557035/134785482-03c3f766-24a1-454b-a26e-85edec6a17e9.PNG)
+
+<br/>
+
+For More Explanation and Examples Visit :  [Basics of Bit Manipulation
+](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
 
 <br/>
