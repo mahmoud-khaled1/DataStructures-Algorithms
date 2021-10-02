@@ -18,7 +18,8 @@
 
 
 ## bigo
-Hi there!  This covers the space and time Big-O complexities of common algorithms used in Computer Science. <br/>
+Big O notation is special notation that tells you how fast an algorithm is.<br/>
+  This covers the space and time Big-O complexities of common algorithms used in Computer Science. <br/>
 ![1](https://user-images.githubusercontent.com/43557035/128607264-121d9663-014d-48e6-b49f-fd61154b6e74.PNG)
 ![2](https://user-images.githubusercontent.com/43557035/128607391-ca4ef377-c561-43a3-8810-9dc88ef2ffe4.PNG)
 ![3](https://user-images.githubusercontent.com/43557035/128607394-6e54f4cc-34ba-432a-8ba4-9cecfa0e416a.PNG)
@@ -220,7 +221,7 @@ Binary Search: Search a sorted array by repeatedly dividing the search interval 
                 if (arr[mid] == x)
                     return mid;
                 else if (arr[mid] > x)
-                    r =  - 1;
+                    r =  mid- 1;
                 else
                     l = mid + 1;
             }
