@@ -220,7 +220,7 @@ Binary Search: Search a sorted array by repeatedly dividing the search interval 
                 if (arr[mid] == x)
                     return mid;
                 else if (arr[mid] > x)
-                    r =  - 1;
+                    r =  mid- 1;
                 else
                     l = mid + 1;
             }
