@@ -14,3 +14,29 @@ Solution :-
 log2(128*2)=??
 2^8=256
 maximum number of steps it would take =8
+--------
+1.3 You have a name, and you want to find the person’s phone number
+in the phone book. 
+
+Solution :-
+O(n)  if we search using Linear search             :where n is number of operations .
+O(log n ) if we search using Binary search     :where n is number of operations .
+-------
+1.4 You have a phone number, and you want to find the person’s name
+in the phone book. (Hint: You’ll have to search through the whole
+book!)
+
+Solution :-
+O( n)  where n is number of operations .
+------
+1.5 You want to read the numbers of every person in the phone book.
+
+Solution :-
+O(n)           :where n is number of operations .
+------
+1.6 You want to read the numbers of just the As. (This is a tricky one!
+It involves concepts that are covered more in chapter 4. Read the
+answer—you may be surprised!)
+
+Solution :-
+O(n )  where n is number of operations .
