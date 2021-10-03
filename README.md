@@ -285,8 +285,15 @@ arr[] = 64 25 12 22 11<br/>
  Time Complexity: O(n^2)
 	
 ## dp	
-					  
-					  
+if some problem instance can be seen as piece of other problems instance ,we can store our work along the way to avoid doing same work twice .<br/>
+
+
+
+
+
+
+
+<br/>					  
 ## bst
 ![YDJt2](https://user-images.githubusercontent.com/43557035/132732430-52cd401e-0b59-4a78-b14a-fa0f77ab4aaa.png)					  
 ![binary-search-tree-time-complexity](https://user-images.githubusercontent.com/43557035/132732379-31e0315a-0477-4995-952d-f96a0731a868.png)
