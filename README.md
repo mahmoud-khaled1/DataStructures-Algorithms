@@ -38,6 +38,7 @@ Index − Each location of an element in an array has a numerical index, which i
 
 ![array-2](https://user-images.githubusercontent.com/43557035/135841299-cd83f175-eb7a-4694-8ddb-e444c715c145.png)
 <br/>
+<br/>
 Advantages of Array :<br/>
 1-Arrays are easy to use as many algorithms like searching and sorting techniques, finding maximum and minimum values, reversing can be easily implemented using arrays.<br/>
 2-The time complexity to access any element of an array is O(1), i.e, it takes a constant amount of time to access an element.<br/>
@@ -45,11 +46,16 @@ Advantages of Array :<br/>
 4-Along with simple arrays, we also have 2- dimensional arrays, which are used to store elements of a matrix of any dimensions.<br/>
 5-Since arrays store elements in contiguous memory locations, no extra memory is allocated outside this contiguous block, which prevents wastage of memory.<br/>
 6-Being one of the most basic data structures, arrays can be used to implement other data structures like linked lists, stacks, queues, graphs, trees, etc.<br/>
+7-Reading element time complexity is O(1) by access the element by it's index .
+<br/>
 <br/>
 Disadvantages of Array:<br/>
 1-The size of an array is fixed. Once the memory is allocated to an array, it cannot be increased or decreased. This prevents us from storing extra data in case we want to.<br/> These arrays of fixed size are called static arrays.<br/>
 2-A single array cannot store values of different data types, i.e, an array is homogenous in nature.<br/>
 3-The deletion and insertion operations in arrays are very difficult to implement as they store data in contiguous memory locations. To overcome this problem, linked lists are implemented which provide random access of elements.<br/>
+4-insertion element in array  time complexity is O(n) ,because  you have to shift all the rest of the elements down. And if there’s no space, you might have to copy everything to a new location .<br/>
+5-Deletions element in array  time complexity is O(n) ,because everything needs to be moved up when you delete an element.<br/>
+
 
 
 
@@ -114,6 +120,9 @@ Advantages of Linked List:<br/>
 4-Memory is well utilized in the linked list. Because in it, we do not have to allocate memory in advance.<br/>
 5-Its access time is very fast, and it can be accessed at a certain time without memory overhead.<br/>
 6-You can easily implement linear data structures using the linked list like a stack, queue.<br/>
+4-insertion element in Linked List   time complexity is O(1) ,because  it’s as easy as changing what the previous element points to.<br/>
+5-Deletions element in array  time complexity is O(1) ,because  it’s as easy as changing what the previous element points to.<br/>
+
 <br/>
 <br/>
 Disadvantages of Linked List:<br/>
