@@ -1,5 +1,7 @@
 * ## Data Structures && Algorithms 
 * [Big O Notation](#bigo)
+* [Array](#array)
+* [Linked List](#linkedlist)
 * [Prefix Sum](#prefixsum)
 * [Frequency array](#frequencyy)
 * [Insertion Sort Algorithm ](#insertionsort)
@@ -23,9 +25,119 @@ Big O notation is special notation that tells you how fast an algorithm is.<br/>
 ![1](https://user-images.githubusercontent.com/43557035/128607264-121d9663-014d-48e6-b49f-fd61154b6e74.PNG)
 ![2](https://user-images.githubusercontent.com/43557035/128607391-ca4ef377-c561-43a3-8810-9dc88ef2ffe4.PNG)
 ![3](https://user-images.githubusercontent.com/43557035/128607394-6e54f4cc-34ba-432a-8ba4-9cecfa0e416a.PNG)
+<br/>
+	
+## array
+An array is a collection of items stored at contiguous memory locations.Array is a container which can hold a fix number of items <br/>
+and these items should be of the same type. Most of the data structures make use of arrays to implement their algorithms.<br/> 
+Following are the important terms to understand the concept of Array.<br/>
 
-	
-	
+Element − Each item stored in an array is called an element.
+
+Index − Each location of an element in an array has a numerical index, which is used to identify the element.
+
+![array-2](https://user-images.githubusercontent.com/43557035/135841299-cd83f175-eb7a-4694-8ddb-e444c715c145.png)
+<br/>
+Advantages of Array :<br/>
+1-Arrays are easy to use as many algorithms like searching and sorting techniques, finding maximum and minimum values, reversing can be easily implemented using arrays.<br/>
+2-The time complexity to access any element of an array is O(1), i.e, it takes a constant amount of time to access an element.<br/>
+3-Arrays use indexes to identify their elements. These indexes starting from ‘zero’ and ending at ‘length of array – 1’ can be used to access all elements of an array.<br/>
+4-Along with simple arrays, we also have 2- dimensional arrays, which are used to store elements of a matrix of any dimensions.<br/>
+5-Since arrays store elements in contiguous memory locations, no extra memory is allocated outside this contiguous block, which prevents wastage of memory.<br/>
+6-Being one of the most basic data structures, arrays can be used to implement other data structures like linked lists, stacks, queues, graphs, trees, etc.<br/>
+<br/>
+Disadvantages of Array:<br/>
+1-The size of an array is fixed. Once the memory is allocated to an array, it cannot be increased or decreased. This prevents us from storing extra data in case we want to.<br/> These arrays of fixed size are called static arrays.<br/>
+2-A single array cannot store values of different data types, i.e, an array is homogenous in nature.<br/>
+3-The deletion and insertion operations in arrays are very difficult to implement as they store data in contiguous memory locations. To overcome this problem, linked lists are implemented which provide random access of elements.<br/>
+
+
+
+For More information about Array Data Structure Visit this [website](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm)
+
+<br/>
+
+## linkedlist
+With linked lists, your items can be anywhere in memory.<br/>
+
+![Capture](https://user-images.githubusercontent.com/43557035/135842979-1dde6208-8d9a-4887-8f53-eaee554013ce.PNG)
+<br/>
+Each item stores the address of the next item in the list. A bunch of<br/>
+random memory addresses are linked together.<br/>
+![Capture](https://user-images.githubusercontent.com/43557035/135843101-ab332bce-bb70-4813-9a5d-f67ce25cdb69.PNG)
+<br/>
+It’s like a treasure hunt. You go to the first address, and it says, “The next
+<br/>
+
+item can be found at address 123.” So you go to address 123, and it says,
+<br/>
+
+“The next item can be found at address 847,” and so on. Adding an item
+<br/>
+
+to a linked list is easy: you stick it anywhere in memory and store the
+<br/>
+
+address with the previous item.
+<br/>
+
+With linked lists, you never have to move your items. You also avoid
+<br/>
+
+another problem. Let’s say you go to a popular movie with five of your
+<br/>
+
+friends. The six of you are trying to find a place to sit, but the theater
+<br/>
+
+is packed. There aren’t six seats together. Well, sometimes this happens
+<br/>
+
+with arrays. Let’s say you’re trying to find 10,000 slots for an array. Your
+<br/>
+
+memory has 10,000 slots, but it doesn’t have 10,000 slots together. You
+<br/>
+
+can’t get space for your array! A linked list is like saying, “Let’s split up
+<br/>
+
+and watch the movie.” If there’s space in memory, you have space for your linked list.
+<br/>
+<br/>
+<br/>
+
+Advantages of Linked List:<br/>
+1-The linked list is a dynamic data structure.<br/>
+2-You can also decrease and increase the linked list at run-time. That is, you can allocate and deallocate memory at run-time itself.<br/>
+3-In this, you can easily do insertion and deletion functions. That is, you can easily insert and delete the node.<br/>
+4-Memory is well utilized in the linked list. Because in it, we do not have to allocate memory in advance.<br/>
+5-Its access time is very fast, and it can be accessed at a certain time without memory overhead.<br/>
+6-You can easily implement linear data structures using the linked list like a stack, queue.<br/>
+<br/>
+<br/>
+Disadvantages of Linked List:<br/>
+1-The linked list requires more memory to store the elements than an array, because each node of the linked list points a pointer, due to which it requires more memory.<br/>
+2-It is very difficult to traverse the nodes in a linked list. In this, we cannot access randomly to any one node. (As we do in the array by index.) For example: – <br/>
+If we want to traverse a node in an n position, then we have to traverse all the nodes that come before n, which will spoil a lot of our time.<br/>
+3-Reverse traversing in a linked list is very difficult, because it requires more memory for the pointer.<br/>
+<br/>
+<br/>
+Application of Linked List :<br/>
+
+The linked list is a primitive data structure, which is used in various types of applications.<br/>
+
+1-It is used to maintain directory names.<br/>
+2-The linked list can perform arithmetic operations in the long integer.<br/>
+3-Polynomials can be manipulated by storing constant in the node of the linked list.<br/>
+4-We can also use it to next and previous images in the image viewer.<br/>
+5-With the help of the linked list, we can move songs back and forth in the music player.<br/>
+6-The linked list is also used for undo in word and Photoshop applications.<br/>
+7-All the running applications in the computer are stored in the circular linked list, and the operating system provides them with a fixed time slot.<br/>
+8-It can also be used to implement hash tables.<br/>
+<br/>
+Here  [Implementation ](https://www.tutorialspoint.com/data_structures_algorithms/array_data_structure.htm) of Linked List 
+<br/>
 ## prefixsum
 Given an array arr[] of size n, its prefix sum array is another array prefixSum[] of the same size, such that the value of prefixSum[i] is arr[0] + arr[1] + arr[2] … arr[i].<br/>	
 
@@ -292,8 +404,8 @@ if some problem instance can be seen as piece of other problems instance ,we can
 
 
 
+<br/>	
 
-<br/>					  
 ## bst
 ![YDJt2](https://user-images.githubusercontent.com/43557035/132732430-52cd401e-0b59-4a78-b14a-fa0f77ab4aaa.png)					  
 ![binary-search-tree-time-complexity](https://user-images.githubusercontent.com/43557035/132732379-31e0315a-0477-4995-952d-f96a0731a868.png)
