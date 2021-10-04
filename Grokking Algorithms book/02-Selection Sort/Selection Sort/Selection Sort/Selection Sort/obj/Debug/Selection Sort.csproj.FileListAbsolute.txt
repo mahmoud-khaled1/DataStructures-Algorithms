@@ -1,0 +1,7 @@
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\bin\Debug\Selection Sort.exe.config
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\bin\Debug\Selection Sort.exe
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\bin\Debug\Selection Sort.pdb
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\obj\Debug\Selection Sort.csprojAssemblyReference.cache
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\obj\Debug\Selection Sort.csproj.CoreCompileInputs.cache
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\obj\Debug\Selection Sort.exe
+D:\Git_Projects\LeetCode\Grokking Algorithms book\02-Selection Sort\Selection Sort\Selection Sort\Selection Sort\obj\Debug\Selection Sort.pdb
