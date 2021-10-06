@@ -1,0 +1,7 @@
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\bin\Debug\MaxElement.exe.config
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\bin\Debug\MaxElement.exe
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\bin\Debug\MaxElement.pdb
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\obj\Debug\MaxElement.csproj.CoreCompileInputs.cache
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\obj\Debug\MaxElement.exe
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\obj\Debug\MaxElement.pdb
+D:\Git_Projects\LeetCode\Grokking Algorithms book\04-quicksort\quicksort\MaxElement\obj\Debug\MaxElement.csprojAssemblyReference.cache

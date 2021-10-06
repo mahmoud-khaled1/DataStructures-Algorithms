@@ -1,0 +1,82 @@
+4.1 Write out the code for the earlier sum function.
+
+Solution :-
+
+ public static int Sum(List<int>List)
+        {
+            if (List.Count()<=0)
+                return 0;
+            else
+            {
+                int temp = List[0];
+                List.RemoveAt(0);
+                return temp+Sum(List);
+            }
+
+        }
+-----------------
+4.2 Write a recursive function to count the number of items in a list.
+
+Solution :-
+
+ public static int CountNums(List<int>List,int indx=0)
+        {
+            if (indx==List.Count())
+                return 0;
+            else
+            {
+                return 1 + CountNums(List,++indx);
+            }
+
+        }
+----------------
+4.3 Find the maximum number in a list.
+
+Solution :-
+
+  public static int MaxElement(List<int>List,int indx=0,int mx=int.MinValue)
+        {
+            if(indx==List.Count())
+            {
+                return mx;
+            }
+            else
+            {
+                if (List[indx] > mx)
+                    mx = List[indx];
+                return MaxElement(List, ++indx, mx);
+            }
+        }
+---------------
+4.4 Remember binary search from chapter 1? It’s a divide-and-conquer
+algorithm, too. Can you come up with the base case and recursive
+case for binary search?
+
+Solution :-
+
+base case of binary search algorithm when we find teh element then retrun Or when start is greater than end then number not found in the array 
+and return -1;
+-----------------
+How long would each of these operations take in Big O notation?
+4.5 Printing the value of each element in an array. 
+
+Solution :-
+O(n) :where n is size of array 
+----------------
+4.6 Doubling the value of each element in an array
+
+Solution :-
+O(n) :where n is size of array 
+----------------
+4.7 Doubling the value of just the first element in an array. 
+
+Solution :-
+O(1)  : Constant Time !
+-----------------
+4.8 Creating a multiplication table with all the elements in the array. So
+if your array is [2, 3, 7, 8, 10], you first multiply every element by 2,
+then multiply every element by 3, then by 7, and so on. 
+
+Solution :-
+O(n*n) == O(n^2) :where n is size of array 
+
