@@ -407,6 +407,27 @@ arr[] = 64 25 12 22 11<br/>
 	
 ## dp	
 if some problem instance can be seen as piece of other problems instance ,we can store our work along the way to avoid doing same work twice .<br/>
+Dynamic Programming (DP):<br/>
+	When we solve a recursive problem that its sub-problems overlaps, hence calling sub-problems<br/>
+	More than once and repeating its calculation in nature that typically makes the order exponentials!<br/>
+	When the original space is small enough to be memorized, then saving these sub-problems<br/>
+ 	makes order small too, as sub-problems calculated once.<br/>
+	<br/>
+General Rules:<br/>
+ 1- Recursive Function<br/>
+ 2- Sub-calls Overlap<br/>
+ 3- Small Search Space, so putting in memory is doable<br/>
+<br/>
+ Do we need to apply DP for merge sort? NEVER, a call will never be repeated! like most of D & C problems. <br/>
+
+ Dynamic Programming most typical cases: Minimization, Maximization and Counting. But could have adhock usages.<br/>
+
+
+ In fact, above code is not called DP, it is call Memoization (NOT Memorization).<br/
+ It is a technique when we have a recurive function and save calls)<br/>
+<br/>
+
+ DP is to build bottom up according to recurrence while Memoization is top-down<br/>
 
 
 
