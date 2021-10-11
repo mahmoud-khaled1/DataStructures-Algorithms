@@ -550,6 +550,7 @@ Hash tables become quite inefficient when there are many collisions.<br/>
 Hash table does not allow null values, like hash map.<br/>
 
 <br/>
+
 Here Implementation of Hash Table With C# :  [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Hash%20Table%20Data%20Structure/Hash%20Table/Hash%20Table/Program.cs
 )
 
