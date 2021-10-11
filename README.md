@@ -531,6 +531,26 @@ Here tutorial of Heaps/Priority Queues :[tutorial](https://www.hackerearth.com/p
 
 <br/>
 
+Hash tables are used everywhere. This section will show you a few use cases :-<br/>
+<br/>
+1-Using hash tables for lookups ,Your phone has a handy phonebook built in.<br/>
+Each name has a phone number associated with it.<br/>
+<br/>
+2-Hash tables are used for lookups on a much larger scale. For example,<br/>
+suppose you go to a website like http://adit.io. Your computer has to<br/>
+translate adit.io to an IP address.<br/>
+Wow, mapping a web address to an IP address? Sounds like a perfect<br/>
+use case for hash tables! This process is called DNS resolution. Hash<br/>
+tables are one way to provide this functionality<br/>
+<br/>
+Disadvantages<br/>
+<br/>
+Hash collisions are practically unavoidable. when hashing a random subset of a large set of possible keys.<br/>
+Hash tables become quite inefficient when there are many collisions.<br/>
+Hash table does not allow null values, like hash map.<br/>
+
+<br/>
+
 Here Implementation of Hash Table With C# :  [Implementation](https://github.com/mahmoud-khaled1/LeetCode/blob/master/Data%20Structures%20%26%26%20Algorithms%20implementation/Hash%20Table%20Data%20Structure/Hash%20Table/Hash%20Table/Program.cs
 )
 
