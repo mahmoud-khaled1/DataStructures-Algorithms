@@ -1,0 +1,36 @@
+6.1 Find the length of the shortest path
+from start to finish.
+
+Solution :-
+The shortest path has a length of 2.
+
+----------------------------------------------
+6.2 Find the length of the shortest path
+from “cab” to “bat”.
+
+Solution :-
+The shortest path has a length of 2.
+
+----------------------------------------------
+6.3 Here’s a small graph of my morning routine.
+For these three lists, mark whether each one is valid or invalid.
+
+Solution :-
+A—Invalid;
+B—Valid; 
+C—Invalid.
+
+----------------------------------------------
+6.4 Here’s a larger graph. Make a valid list for this graph.
+
+Solution:-
+1—Wake up; 2—Exercise; 3—Shower; 4—Brush teeth; 5—Get dressed; 6—Pack lunch; 7—Eat breakfast.
+
+
+----------------------------------------------
+6.5 Which of the following graphs are also trees?
+
+Solution :-
+A—Tree; B—Not a tree; C—Tree. 
+The last example is just a sideways tree. 
+Trees are a subset of graphs. So a tree is always a graph, but a graph may or may not be a tree.
