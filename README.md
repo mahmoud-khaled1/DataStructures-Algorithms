@@ -14,6 +14,7 @@
 * [Hash Table Data Structure ](#hash)
 * [AVL Tree ](#avl)
 * [Bitwise operations ](#bitwise)
+* [Breadth First Search (BFS)](#bfs)
 
 
 
@@ -627,3 +628,35 @@ For More Explanation and Examples Visit :  [Basics of Bit Manipulation
 ](https://www.hackerearth.com/practice/basic-programming/bit-manipulation/basics-of-bit-manipulation/tutorial/)
 
 <br/>
+
+# bfs
+
+
+
+![1](https://user-images.githubusercontent.com/43557035/137122843-a2d63a1a-2393-4f15-b0f5-ea1b76eb8146.PNG)
+![2](https://user-images.githubusercontent.com/43557035/137122855-1c9960dd-9789-4285-89f1-91177aab63f0.PNG)
+![3](https://user-images.githubusercontent.com/43557035/137122861-00558a9c-29d3-431a-8741-e7173bfa1ece.PNG)
+![4](https://user-images.githubusercontent.com/43557035/137122872-38c0d45f-cbf5-42b4-bdeb-b92eb2544670.PNG)
+![5](https://user-images.githubusercontent.com/43557035/137122824-d39d878c-29d2-47ce-ad28-69aaf70004b1.PNG)
+![6](https://user-images.githubusercontent.com/43557035/137122832-984e78b4-bbb1-468d-9aa9-36031b817e6d.PNG)
+![7](https://user-images.githubusercontent.com/43557035/137122841-539ff73b-768f-4f9e-828e-b98d934d05e0.PNG)
+<br/>
+
+Complexity<br/>
+The time complexity of BFS is O(V + E), where V is the number of nodes and E is the number of edges.<br/>
+
+
+For more information about BFS [Visit](https://www.hackerearth.com/practice/algorithms/graphs/breadth-first-search/tutorial/):
+<br/>
+
+Here implementation of BFS problem in Grokking algorithm book   [implementaion](https://github.com/mahmoud-khaled1/DataStructures-Algorithms/blob/master/Grokking%20Algorithms%20book/06-breadth-first%20Search/BFS/BFS/Program.cs)
+
+
+
+
+
+
+
+
+
+
