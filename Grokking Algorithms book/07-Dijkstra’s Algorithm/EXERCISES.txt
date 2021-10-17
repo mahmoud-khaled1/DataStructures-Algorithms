@@ -1,0 +1,9 @@
+7.1 In each of these graphs, what is the weight of the shortest path from
+start to finish?
+
+Solution :-
+A:  it cost 8 from start to finish node 
+
+B: it cost 60 from start to finish node 
+
+c: No shortest path is possible (negative-weight cycle).
