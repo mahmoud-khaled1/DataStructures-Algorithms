@@ -1,0 +1,6 @@
+D:\Git_Projects\DataStructures-Algorithms\Data Structures && Algorithms implementation\Recursion\Recursion\Binary_Search\bin\Debug\Binary_Search.exe.config
+D:\Git_Projects\DataStructures-Algorithms\Data Structures && Algorithms implementation\Recursion\Recursion\Binary_Search\bin\Debug\Binary_Search.exe
+D:\Git_Projects\DataStructures-Algorithms\Data Structures && Algorithms implementation\Recursion\Recursion\Binary_Search\bin\Debug\Binary_Search.pdb
+D:\Git_Projects\DataStructures-Algorithms\Data Structures && Algorithms implementation\Recursion\Recursion\Binary_Search\obj\Debug\02-Binary_Search.csproj.CoreCompileInputs.cache
+D:\Git_Projects\DataStructures-Algorithms\Data Structures && Algorithms implementation\Recursion\Recursion\Binary_Search\obj\Debug\Binary_Search.exe
+D:\Git_Projects\DataStructures-Algorithms\Data Structures && Algorithms implementation\Recursion\Recursion\Binary_Search\obj\Debug\Binary_Search.pdb
