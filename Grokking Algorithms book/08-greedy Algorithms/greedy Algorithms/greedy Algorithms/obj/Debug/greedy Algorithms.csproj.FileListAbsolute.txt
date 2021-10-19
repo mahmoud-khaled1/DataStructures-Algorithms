@@ -1,0 +1,7 @@
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\bin\Debug\greedy Algorithms.exe.config
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\bin\Debug\greedy Algorithms.exe
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\bin\Debug\greedy Algorithms.pdb
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\obj\Debug\greedy Algorithms.csprojAssemblyReference.cache
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\obj\Debug\greedy Algorithms.csproj.CoreCompileInputs.cache
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\obj\Debug\greedy Algorithms.exe
+D:\Git_Projects\DataStructures-Algorithms\Grokking Algorithms book\08-greedy Algorithms\greedy Algorithms\greedy Algorithms\obj\Debug\greedy Algorithms.pdb
