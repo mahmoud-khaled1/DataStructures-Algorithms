@@ -3,11 +3,13 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Recursion", "Recursion\01-Recursion.csproj", "{C6753EB6-2472-4886-BC0B-DDA19E77AC6C}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "01-Basics Recursion Pro", "Recursion\01-Basics Recursion Pro.csproj", "{C6753EB6-2472-4886-BC0B-DDA19E77AC6C}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "02-Binary_Search", "Binary_Search\02-Binary_Search.csproj", "{25AB1BA7-7E11-4E59-A442-06FF06B83679}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "03-Fibonacci", "Fibonacci\03-Fibonacci.csproj", "{60AFD49A-0B16-4D8F-8182-2F8A5CE2652F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "04-Merge Sort", "Merge Sort\04-Merge Sort.csproj", "{C1318CF5-E2C3-492B-A88C-C56E1FA1B3A2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{60AFD49A-0B16-4D8F-8182-2F8A5CE2652F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{60AFD49A-0B16-4D8F-8182-2F8A5CE2652F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{60AFD49A-0B16-4D8F-8182-2F8A5CE2652F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C1318CF5-E2C3-492B-A88C-C56E1FA1B3A2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C1318CF5-E2C3-492B-A88C-C56E1FA1B3A2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C1318CF5-E2C3-492B-A88C-C56E1FA1B3A2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C1318CF5-E2C3-492B-A88C-C56E1FA1B3A2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

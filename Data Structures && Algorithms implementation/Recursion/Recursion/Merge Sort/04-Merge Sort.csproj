@@ -7,7 +7,7 @@
     <ProjectGuid>{C1318CF5-E2C3-492B-A88C-C56E1FA1B3A2}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Merge_Sort</RootNamespace>
-    <AssemblyName>Merge_Sort</AssemblyName>
+    <AssemblyName>Merge Sort</AssemblyName>
     <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
