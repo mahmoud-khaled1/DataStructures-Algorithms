@@ -430,12 +430,13 @@ General Rules:<br/>
 
  DP is to build bottom up according to recurrence while Memoization is top-down<br/>
 
-
-
-
-
-
+<br/>
+ Here some exercises of dp problems : [Link](https://github.com/mahmoud-khaled1/DataStructures-Algorithms/tree/master/Data%20Structures%20%26%26%20Algorithms%20implementation/DP/DP%20basics)
 <br/>	
+
+
+
+
 
 ## bst
 ![YDJt2](https://user-images.githubusercontent.com/43557035/132732430-52cd401e-0b59-4a78-b14a-fa0f77ab4aaa.png)					  
